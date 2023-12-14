@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+public class Main {
+  public static void main(String[] args) {
+    ArrayList a = new ArrayList();
+    ArrayList b=new ArrayList();
+    a.add(20);
+    a.add(60);
+    a.add(30);
+    a.add(a);
+    b.add(52);
+    b.add("shaik");
+    b.add(90);
+    b.add(b);
+    
+    a.forEach( (s) -> { System.out.println(s); } );
+     b.forEach( (j) -> { System.out.println(j); } );
+  }
+}
